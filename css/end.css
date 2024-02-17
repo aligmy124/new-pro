@@ -1,0 +1,291 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.navbar{
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 1000;
+}
+.navbar .nav-link{
+    color:  rgb(119, 14, 14);
+    text-transform: uppercase;
+    font-weight:500;
+}
+.navbar .nav-link:hover{
+    color: #c68686;
+}
+.form-inline{
+    /* background-color: black; */
+    position: relative;
+    top: 0;
+    left: 50px;
+}
+.navbar .form-inline input{
+    height: 40px;
+    width: 65%;
+    border-radius: 60px;
+    padding: 0 10px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid  rgb(119, 14, 14);
+}
+.navbar .form-inline button{
+    display: inline-block;
+    width:35%;
+    height: 40px;
+    border-radius: 60px;
+    background-color:  rgb(119, 14, 14);
+    color: #fff;
+}
+#home{
+    padding-top: 117px;
+    background-image: url("../img/bg-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+#home h1{
+    color: rgb(119, 14, 14);
+    text-transform: capitalize;
+    font-weight: 700;
+}
+#home p{
+    width: 400px;
+}
+#home .btn1{
+    display: inline-block;
+    padding:10px 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(119, 14, 14);
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#home .btn2{
+    display: inline-block;
+    padding:10px 20px;
+    border: none;
+    outline: none;
+    border:2px solid rgb(119, 14, 14);
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#home .btn2:hover{
+    background-color: rgb(119, 14, 14);
+    color: #fff;
+}
+#about{
+    height:auto;
+    margin-top: 100px;
+}
+#about .col1 .title h2{
+    color:  rgb(119, 14, 14);
+    font-family: sans-serif;
+    font-weight: 600;
+}
+#about .col1 .title p{
+    color: rgb(135, 134, 134);
+}
+#about .col1 .title button{
+    display: inline-block;
+    padding:10px 20px;
+    outline: none;
+    background-color: rgb(119, 14, 14);
+    color: #fff;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+#about .col1 .title button:hover{
+    background-color: #fff;
+    border: 2px solid  rgb(119, 14, 14);
+    color:  rgb(119, 14, 14);
+}
+#about .col2 .title h2{
+    color:  rgb(119, 14, 14);
+    font-family: sans-serif;
+    font-weight: 600;
+}
+#about .col2 .title p{
+    color: rgb(73, 73, 73);
+    
+}
+#about .col2 .title button{
+    display: inline-block;
+    padding:10px 20px;
+    outline: none;
+    background-color: rgb(119, 14, 14);
+    color: #fff;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+#about .col2 .title button:hover{
+    background-color: #fff;
+    border: 2px solid  rgb(119, 14, 14);
+    color:  rgb(119, 14, 14);
+}
+#about .jumb{
+    background-image: url(../img/bg-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-bottom: 100px;
+
+}
+#about .jumb .title{
+    width: 50%;
+    margin: auto;
+}
+#about .jumb .title h1{
+    font-size: 40px;
+    color:  rgb(119, 14, 14);
+}
+#about .jumb .title p{
+    color: rgb(73, 73, 73);
+}
+#about .jumb .title button{
+    display: inline-block;
+    padding:10px 20px;
+    outline: none;
+    background-color: rgb(119, 14, 14);
+    color: #fff;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+#about .jumb .title button:hover{
+    background-color: #fff;
+    border: 2px solid  rgb(119, 14, 14);
+    color:  rgb(119, 14, 14);
+}
+#explore{
+    margin-top: 100px;
+}
+#explore{
+    margin-top: 100px;
+}
+#explore .title{
+    width: 80%;
+    margin: auto;
+    
+}
+#explore .title h1{
+    text-transform: capitalize;
+    color:rgb(119, 14, 14);
+    font-weight: 600;
+}
+#explore .title p{
+    color: rgb(73, 73, 73);
+}
+#explore .col .img {
+    text-transform: capitalize;
+}
+#explore .col .img h5{
+    color: rgb(119, 14, 14);
+}
+#explore .col .img h5{
+    color: rgb(119, 14, 14);
+}
+#explore .col .img h3 {
+    color: rgb(119, 14, 14);
+}
+#explore .col .img h3 del{
+    color: rgb(128, 120, 120);
+}
+#explore .col .img button{
+    display: inline-block;
+    padding:10px 20px;
+    outline: none;
+    background-color: rgb(119, 14, 14);
+    color: #fff;
+    cursor: pointer;
+    text-transform: capitalize;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+#explore .col .img button:hover{
+    background-color: #fff;
+    border: 2px solid  rgb(119, 14, 14);
+    color:  rgb(119, 14, 14);
+}
+#review .jumb{
+    background-color: rgb(204, 80, 80);
+}
+#review .jumb .carousel-inner {
+    background-color: #fff;
+    padding:100px;
+}
+#review .jumb .carousel-inner .carousel-caption img{
+    margin-bottom: 15%;
+}
+#faq .row1 .title h5{
+    color: rgb(119, 14, 14);
+}
+#faq .row1 .title h5 span {
+    font-size: 30px;
+    color: rgb(204, 80, 80);
+}
+#faq .row2{
+    background-image: url("../img/bg-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 4.375rem 0;
+    background-position:0 71.9125px;
+    background-attachment: fixed;
+}
+#faq .title-text h2{
+    color: #fff;
+    text-transform: capitalize;
+}
+#faq .title-btn button{
+    padding:10px 20px;
+    outline: none;
+    border-color: rgb(205, 75, 75);
+    background-color: rgb(205, 75, 75);
+    color: #ffffff;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+#faq .title-btn button:hover{
+    background-color: #fff;
+    border: 1px solid  rgb(205, 75, 75);
+    color:  rgb(205, 75, 75);
+}
+#faq .row3 .title h2{
+    color: #370e0e;
+    text-transform: capitalize;
+}
+#faq .row3 .form input{
+    padding:8px 10px;
+    width: 50%;
+    font-family: sans-serif;
+}
+::placeholder{
+    text-transform: capitalize;
+}
+#faq .row3 .form button{
+    padding:8px 20px;
+    outline: none;
+    border-color: rgb(205, 75, 75);
+    background-color: rgb(205, 75, 75);
+    color: #ffffff;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+#faq .row3 .form  button:hover{
+    background-color: #fff;
+    border: 1px solid  rgb(205, 75, 75);
+    color:  rgb(205, 75, 75);
+}
+
